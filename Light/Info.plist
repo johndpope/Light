@@ -60,9 +60,37 @@
 	</array>
 	<key>UISupportsDocumentBrowser</key>
 	<true/>
-	<key>UTImportedTypeDeclarations</key>
+	<key>UTExportedTypeDeclarations</key>
 	<array>
-		<dict/>
+		<dict>
+			<key>UTExportedTypeDeclarations</key>
+			<array>
+				<dict>
+					<key>UTTypeConformsTo</key>
+					<array>
+						<string></string>
+					</array>
+					<key>UTTypeIdentifier</key>
+					<string></string>
+					<key>UTTypeTagSpecification</key>
+					<dict>
+						<key>public.filename-extension</key>
+						<string>piano</string>
+					</dict>
+				</dict>
+			</array>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+				<string>public.content</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>piano note file</string>
+			<key>UTTypeIconFile</key>
+			<string>ExportIcon</string>
+			<key>UTTypeIdentifier</key>
+			<string>com.piano.piano</string>
+		</dict>
 	</array>
 </dict>
 </plist>
